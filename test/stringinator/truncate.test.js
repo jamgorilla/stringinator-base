@@ -28,6 +28,7 @@ describe('truncation functions', () => {
       };
       const expected = ['K', 'W', 'S'];
       const result = stringinator.truncateLongItems(veryLongMiddleNameGuy, 1);
+  
       expect(result).toEqual(expected);
     });
 
